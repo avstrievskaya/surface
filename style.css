@@ -606,7 +606,6 @@ letter-spacing: 1px;
   .header_content-box{
       padding-bottom: 250px;
     }
-  }
 
   .header_content {
     font-size: 64px;
@@ -845,7 +844,7 @@ flex-direction: column;
 .footer_button{
   margin-bottom: 120px;
 }
-
+}
 @media (max-width: 768px){
   .header_logo{
     padding-bottom: 110px;
@@ -1031,7 +1030,7 @@ letter-spacing: 1.4px;
 }
 
 .card_content{
-  padding-top: 50px;
+  padding: 50px 60px 30px 20px;
 }
 
 .card_text{
@@ -1039,6 +1038,55 @@ letter-spacing: 1.4px;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 0.8px;
+margin-top: 0;
 }
 
+.card{
+  min-height: 630px
+}
+
+.card:nth-child(2n) .card_number{
+  width: 70px;
+  height: 70px;
+}
+
+.card:nth-child(2n) .card_content{
+  padding: 50px 50px 30px 30px;
+}
+
+
+.card:nth-child(2n) .card_text{
+  margin-top: 0;
+}
+
+.download_button_img{
+  width: 73px;
+height: 78px;
+}
+
+.download_button{
+  margin-right: 0;
+}
+
+.download_text_1{
+  font-size: 34px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: -0.3px;
+margin-bottom: 0;
+line-height: 30px;
+}
+
+.download_text_2{
+  font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: -1px;
+line-height: 30px;
+}
+
+.basketballer_stick_1-1 {
+  top: 222px;
+    left: -12px;
+    width: 90px;
 }
